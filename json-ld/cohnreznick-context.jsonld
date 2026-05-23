@@ -1,0 +1,169 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/",
+    "cr": "https://www.cohnreznick.com/vocab#",
+
+    "AccountingFirm": {
+      "@id": "schema:ProfessionalService",
+      "@type": "@id"
+    },
+    "ProfessionalServicesFirm": {
+      "@id": "schema:ProfessionalService",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "legalName": "schema:legalName",
+    "description": "schema:description",
+    "url": "schema:url",
+    "founder": "schema:founder",
+    "foundingDate": {
+      "@id": "schema:foundingDate",
+      "@type": "xsd:date"
+    },
+    "parentOrganization": "schema:parentOrganization",
+    "subOrganization": "schema:subOrganization",
+    "memberOf": "schema:memberOf",
+
+    "AlternativePracticeStructure": {
+      "@id": "cr:AlternativePracticeStructure",
+      "@type": "@id"
+    },
+    "attestEntity": {
+      "@id": "cr:attestEntity",
+      "@type": "@id"
+    },
+    "advisoryEntity": {
+      "@id": "cr:advisoryEntity",
+      "@type": "@id"
+    },
+
+    "AttestFirm": {
+      "@id": "cr:AttestFirm",
+      "@type": "@id"
+    },
+    "AdvisoryEntity": {
+      "@id": "cr:AdvisoryEntity",
+      "@type": "@id"
+    },
+
+    "PrivateEquityInvestment": {
+      "@id": "fibo:FBC/FunctionalEntities/FinancialServicesEntities/PrivateEquityInvestment",
+      "@type": "@id"
+    },
+    "investor": "schema:funder",
+    "investmentDate": {
+      "@id": "cr:investmentDate",
+      "@type": "xsd:date"
+    },
+    "ownershipStake": "cr:ownershipStake",
+
+    "ProfessionalServiceLine": {
+      "@id": "cr:ServiceLine",
+      "@type": "@id"
+    },
+    "serviceLine": "cr:serviceLine",
+    "industryVertical": "cr:industryVertical",
+
+    "AssuranceService": {
+      "@id": "cr:AssuranceService",
+      "@type": "@id"
+    },
+    "Audit": "cr:Audit",
+    "EmployeeBenefitPlanAudit": "cr:EmployeeBenefitPlanAudit",
+    "SECAudit": "cr:SECAudit",
+    "AttestService": "cr:AttestService",
+
+    "TaxService": {
+      "@id": "cr:TaxService",
+      "@type": "@id"
+    },
+    "FederalTax": "cr:FederalTax",
+    "InternationalTax": "cr:InternationalTax",
+    "StateAndLocalTax": "cr:StateAndLocalTax",
+    "ExemptOrganizationsTax": "cr:ExemptOrganizationsTax",
+    "TaxCredits": "cr:TaxCredits",
+    "LowIncomeHousingTaxCredit": "cr:LIHTC",
+    "OpportunityZone": "cr:OpportunityZone",
+    "TaxEquity": "cr:TaxEquity",
+
+    "AdvisoryService": {
+      "@id": "cr:AdvisoryService",
+      "@type": "@id"
+    },
+    "CFOAdvisory": "cr:CFOAdvisory",
+    "CxOAdvisory": "cr:CxOAdvisory",
+    "AccountingAdvisory": "cr:AccountingAdvisory",
+    "ManagedServicesAndOutsourcedAccounting": "cr:MSOA",
+    "SustainabilityAdvisory": "cr:SustainabilityAdvisory",
+    "BusinessPerformance": "cr:BusinessPerformance",
+
+    "DigitalService": {
+      "@id": "cr:DigitalService",
+      "@type": "@id"
+    },
+    "CloudApplications": "cr:CloudApplications",
+    "DataAndAI": "cr:DataAndAI",
+
+    "TransactionsService": {
+      "@id": "cr:TransactionsService",
+      "@type": "@id"
+    },
+    "MergerIntegration": "cr:MergerIntegration",
+    "CarveOut": "cr:CarveOut",
+
+    "IndustryVertical": {
+      "@id": "cr:IndustryVertical",
+      "@type": "@id"
+    },
+    "RealEstate": "cr:RealEstate",
+    "AffordableHousing": "cr:AffordableHousing",
+    "CommercialRealEstate": "cr:CommercialRealEstate",
+    "RenewableEnergy": "cr:RenewableEnergy",
+    "AssetManagement": "cr:AssetManagement",
+    "PrivateEquity": "cr:PrivateEquity",
+    "HedgeFunds": "cr:HedgeFunds",
+    "PrivateCreditFunds": "cr:PrivateCreditFunds",
+    "VentureCapital": "cr:VentureCapital",
+    "FinancialServices": "cr:FinancialServices",
+    "REIT": "cr:REIT",
+    "BrokerDealer": "cr:BrokerDealer",
+    "Healthcare": "cr:Healthcare",
+    "LifeSciences": "cr:LifeSciences",
+    "TechnologyMedia": "cr:TechnologyMedia",
+    "ConsumerIndustrial": "cr:ConsumerIndustrial",
+    "Cannabis": "cr:Cannabis",
+    "Hospitality": "cr:Hospitality",
+    "ManufacturingDistribution": "cr:ManufacturingDistribution",
+    "PublicSector": "cr:PublicSector",
+    "GovernmentContracting": "cr:GovernmentContracting",
+    "NotForProfitAndEducation": "cr:NotForProfitAndEducation",
+    "PrivateClients": "cr:PrivateClients",
+    "FamilyOffice": "cr:FamilyOffice",
+    "WealthManagement": "cr:WealthManagement",
+    "LawFirms": "cr:LawFirms",
+    "MedicalPractices": "cr:MedicalPractices",
+
+    "Office": {
+      "@id": "schema:Place",
+      "@type": "@id"
+    },
+    "officeLocation": "schema:address",
+    "address": "schema:address",
+
+    "Recognition": {
+      "@id": "schema:Award",
+      "@type": "@id"
+    },
+    "award": "schema:award",
+    "certification": "cr:certification",
+
+    "NexiaMember": {
+      "@id": "cr:NexiaMember",
+      "@type": "@id"
+    },
+    "globalNetwork": "cr:globalNetwork"
+  }
+}

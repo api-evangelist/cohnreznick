@@ -1,0 +1,198 @@
+aid: cohnreznick
+name: CohnReznick
+description: >-
+  CohnReznick is a top-25 US accounting, tax, and advisory firm formed in 2012
+  by the merger of J.H. Cohn LLP and Reznick Group, P.C. The firm serves clients
+  across more than 30 industries from offices throughout the United States and
+  four offshore subsidiaries, with its global reach extended through membership
+  in the Nexia International network (operating in more than 128 countries). In
+  May 2024 CohnReznick became the first US accounting firm of its scale to
+  receive a strategic growth investment from a private equity sponsor when
+  funds advised by Apax Partners acquired a majority stake. As part of that
+  transaction the firm operates under an alternative-practice structure: audit
+  and attest services are delivered by CohnReznick LLP (a licensed CPA firm)
+  while tax and advisory services are delivered through CohnReznick Advisory
+  LLC. Largest practice areas include Real Estate, Renewable Energy, Government
+  Contracting, Asset Management (private equity, hedge funds, private credit,
+  REITs), Financial Services, Healthcare, Life Sciences, Consumer & Industrial,
+  Technology & Media, Public Sector, and Private Clients (family offices, high
+  net worth individuals, professional sports). CohnReznick does not publish a
+  public software developer API; this repository documents the firm's
+  organizational profile, practice taxonomy, and linked-data context for API
+  catalog purposes.
+type: Index
+position: Provider
+access: Public
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Accounting
+  - Audit
+  - Assurance
+  - Tax
+  - Advisory
+  - Consulting
+  - Professional Services
+  - Real Estate
+  - Renewable Energy
+  - Government Contracting
+  - Asset Management
+  - Private Equity
+  - Financial Services
+  - Healthcare
+  - Life Sciences
+  - Technology
+  - Media
+  - Private Clients
+  - Family Offices
+  - Sustainability
+  - Cybersecurity
+  - Restructuring
+  - Forensic Accounting
+  - Transactions
+  - Risk Advisory
+created: '2026-05-22'
+modified: '2026-05-22'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/cohnreznick/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.cohnreznick.com
+  - type: About
+    url: https://www.cohnreznick.com/about
+  - type: Services
+    url: https://www.cohnreznick.com/services
+  - type: Industries
+    url: https://www.cohnreznick.com/industries
+  - type: Offices
+    url: https://www.cohnreznick.com/offices
+  - type: Insights
+    url: https://www.cohnreznick.com/insights
+  - type: Careers
+    url: https://www.cohnreznick.com/careers
+  - type: ContactUs
+    url: https://www.cohnreznick.com/contact-us
+  - type: ClientPortal
+    url: https://cohnreznick.sharepoint.com/sites/ClientPortal
+  - type: GitHub
+    url: https://github.com/cohnreznick
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cohnreznick
+  - type: NetworkAffiliation
+    url: https://nexia.com
+  - type: ParentCompany
+    url: https://www.apax.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+properties:
+  - type: Ownership
+    name: Apax Funds Majority Investment (May 2024)
+    description: >-
+      CohnReznick received a strategic growth investment from funds advised by
+      Apax Partners that closed in May 2024 — reportedly the first time a US
+      accounting firm of CohnReznick's scale entered a majority private-equity
+      ownership structure.
+  - type: LegalStructure
+    name: CohnReznick LLP
+    description: >-
+      Licensed CPA firm that delivers attest, audit, and accounting services
+      under the firm's alternative-practice structure.
+  - type: LegalStructure
+    name: CohnReznick Advisory LLC
+    description: >-
+      Provides tax and business consulting services under the firm's
+      alternative-practice structure; majority owned by Apax-advised funds.
+  - type: NetworkAffiliation
+    name: Nexia International
+    description: >-
+      CohnReznick is a member of Nexia, a global network of independent
+      accounting and consulting firms whose reach the firm describes as
+      extending to "more than 128 countries."
+  - type: GlobalDeliveryCenters
+    name: Offshore Subsidiaries
+    description: >-
+      Four offshore subsidiaries support delivery to US clients (India,
+      Cayman Islands, and Philippines among the named global affiliates on
+      the office locator).
+serviceAreas:
+  - name: Accounting & Assurance
+    description: >-
+      Delivered by CohnReznick LLP. Includes Attest & Audit, SEC Audits,
+      Employee Benefit Plan audits, Lease Accounting, and accounting advisory.
+  - name: Tax
+    description: >-
+      Federal Tax, International Tax, State & Local Tax, Exempt Organizations
+      Tax Services, and tax credits/incentives advisory.
+  - name: Advisory
+    description: >-
+      Accounting Advisory, CFO Advisory, CxO Advisory, Client Advisory
+      Services, Managed Services and Outsourced Accounting (MSOA), Business
+      Performance, Performance Improvement, Sustainability Advisory.
+  - name: Digital
+    description: >-
+      Cloud Applications, Data and AI, and technology-enabled services
+      delivered by CohnReznick's Digital team.
+  - name: Transactions
+    description: >-
+      M&A and divestiture support, including Merger Integration & Carve-Out
+      services across the transaction lifecycle.
+industries:
+  - Asset Management (Private Equity, Hedge Funds, Private Credit Funds, Real Estate Funds, Venture Capital, Independent Sponsors, SBICs)
+  - Consumer & Industrial (Cannabis, Consumer, Hospitality, Manufacturing & Distribution)
+  - Financial Services (Broker-Dealers, Mortgage Lenders, REIT Services)
+  - Healthcare (Community Health, Performance Transformation)
+  - Life Sciences
+  - Private Clients (Family Offices, Film & Entertainment, Game Plan / Accounting for Athletes, Law Firms, Medical Practices, Wealth Management)
+  - Public Sector (Government Contracting, Government, Not-for-Profit & Education)
+  - Real Estate (Affordable Housing, Commercial Real Estate, Opportunity Zones, Tax Credits)
+  - Renewable Energy
+  - Technology & Media
+locations:
+  - Atlanta
+  - Austin
+  - Baltimore
+  - Bethesda
+  - Boca Raton
+  - Boston
+  - Braintree
+  - Charlotte
+  - Chicago
+  - Dallas
+  - Denver
+  - El Segundo
+  - Fort Lauderdale
+  - Hartford
+  - Holmdel
+  - Houston
+  - Jupiter
+  - Los Angeles
+  - Melville
+  - Miami
+  - Minneapolis
+  - New York
+  - Parsippany
+  - Richmond
+  - Rochester
+  - Red Wing
+  - Sacramento
+  - San Diego
+  - San Francisco
+  - San Jose
+  - Stamford
+  - Tallahassee
+  - Tysons
+  - Wakefield
+  - White Plains
+  - Woodland Hills
+globalAffiliates:
+  - India
+  - Cayman Islands
+  - Philippines
+recognition:
+  - Certified Great Place to Work (since 2022)
+  - Newsweek Most Loved Workplaces (three consecutive years)
+  - INSIDE Public Accounting 2025 Best of the Best CPA Firms
+  - Vault Top 5 firm for overall diversity and LGBTQ diversity
+  - Vault Top 3 firm for racial and ethnic diversity

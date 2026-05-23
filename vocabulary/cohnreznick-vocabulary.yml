@@ -1,0 +1,212 @@
+vocabulary:
+  name: CohnReznick Vocabulary
+  description: >-
+    Domain vocabulary for CohnReznick — a top-25 US accounting, tax, and
+    advisory firm formed by the 2012 merger of J.H. Cohn LLP and Reznick
+    Group, P.C. and majority-owned since May 2024 by funds advised by Apax
+    Partners. Vocabulary covers the firm's alternative-practice structure
+    (CohnReznick LLP attest entity vs CohnReznick Advisory LLC consulting
+    entity), service lines (Accounting & Assurance, Tax, Advisory, Digital,
+    Transactions), and the industry verticals where the firm holds dedicated
+    practices.
+  version: '2026-05-22'
+  terms:
+    - term: Alternative Practice Structure
+      definition: >-
+        Two-entity model adopted by CohnReznick at the 2024 Apax investment in
+        which audit/attest services are delivered by a licensed CPA firm
+        (CohnReznick LLP) while tax and advisory services are delivered by a
+        separate, PE-owned services company (CohnReznick Advisory LLC). The
+        structure preserves auditor independence rules while permitting
+        majority external ownership of the consulting business.
+      tags:
+        - Firm Structure
+        - Regulation
+    - term: CohnReznick LLP
+      definition: >-
+        The licensed CPA firm that delivers attest, audit, and accounting
+        services. Operates under partner ownership consistent with US auditor
+        independence requirements.
+      tags:
+        - Legal Entity
+        - Audit
+    - term: CohnReznick Advisory LLC
+      definition: >-
+        The advisory and tax services company that delivers consulting, tax,
+        digital, transactions, and managed services. Majority-owned by funds
+        advised by Apax Partners following the May 2024 transaction.
+      tags:
+        - Legal Entity
+        - Advisory
+    - term: Apax Funds Investment
+      definition: >-
+        The May 2024 strategic growth investment by funds advised by Apax
+        Partners that made CohnReznick the first US accounting firm of its
+        scale to operate under majority private-equity ownership.
+      tags:
+        - Ownership
+        - Private Equity
+    - term: Nexia International
+      definition: >-
+        Global network of independent accounting and consulting firms in which
+        CohnReznick is a member; extends the firm's reach to more than 128
+        countries.
+      tags:
+        - Network
+        - Global
+    - term: Attest
+      definition: >-
+        The set of services (audit, review, examination) for which an
+        accountant issues an opinion on management's assertions. Reserved
+        under US state-board rules to CPA-owned firms — at CohnReznick this is
+        the CohnReznick LLP entity.
+      tags:
+        - Audit
+        - Regulation
+    - term: Employee Benefit Plan Audit
+      definition: >-
+        ERISA-required audit of large 401(k), 403(b), pension, and welfare
+        plans. A CohnReznick LLP accounting and assurance service line.
+      tags:
+        - Audit
+        - Compliance
+    - term: SEC Audit
+      definition: >-
+        Audit of financial statements for SEC-registered issuers, performed
+        under PCAOB standards. Part of CohnReznick LLP's accounting and
+        assurance practice.
+      tags:
+        - Audit
+        - Public Company
+    - term: Tax Credits and Incentives
+      definition: >-
+        Federal, state, and local credits and incentives (including
+        renewable-energy investment and production tax credits, historic
+        rehabilitation credits, low-income housing tax credits, opportunity
+        zones, and research credits). A signature CohnReznick capability
+        across renewable energy, real estate, and tax credit advisory.
+      tags:
+        - Tax
+        - Incentives
+    - term: Low Income Housing Tax Credit
+      definition: >-
+        Federal tax credit (Section 42) used to finance affordable rental
+        housing. A pillar of CohnReznick's Real Estate practice — historically
+        traced to the Reznick Group's affordable-housing heritage.
+      tags:
+        - Real Estate
+        - Tax Credits
+        - Affordable Housing
+    - term: Opportunity Zone
+      definition: >-
+        Census-tract designation created by the 2017 Tax Cuts and Jobs Act
+        that defers and abates capital-gains tax on investments in qualified
+        opportunity funds; a CohnReznick Real Estate sub-practice.
+      tags:
+        - Real Estate
+        - Tax Credits
+    - term: Tax Equity
+      definition: >-
+        Investor capital that monetizes renewable-energy tax credits and
+        depreciation; CohnReznick advises developers, IPPs, EPCs, utilities,
+        and PE funds on tax-equity structures.
+      tags:
+        - Renewable Energy
+        - Tax
+    - term: Government Contracting
+      definition: >-
+        Practice serving federal, state, and local government contractors on
+        FAR, DCAA, cost accounting standards, incurred-cost submissions, and
+        related compliance. A Public Sector industry vertical.
+      tags:
+        - Public Sector
+        - Compliance
+    - term: Asset Management
+      definition: >-
+        CohnReznick service line and industry vertical covering private
+        equity funds, hedge funds, private credit funds, real estate funds,
+        venture capital, independent sponsors, and Small Business Investment
+        Companies (SBICs).
+      tags:
+        - Asset Management
+        - Financial Services
+    - term: Managed Services and Outsourced Accounting (MSOA)
+      definition: >-
+        Outsourced finance-and-accounting offering covering bookkeeping,
+        controllership, and transaction processing for clients that do not
+        maintain in-house accounting capacity.
+      tags:
+        - Advisory
+        - Outsourcing
+    - term: CFO Advisory
+      definition: >-
+        Fractional-CFO and finance-transformation services within
+        CohnReznick's Accounting Advisory line.
+      tags:
+        - Advisory
+        - Finance
+    - term: Merger Integration and Carve-Out
+      definition: >-
+        Transactions-practice service covering post-deal integration and
+        divestiture / carve-out execution across the M&A lifecycle.
+      tags:
+        - Transactions
+        - M&A
+    - term: Sustainability Advisory
+      definition: >-
+        Environmental, social, and governance (ESG) advisory service that
+        helps clients build sustainable, resilient businesses.
+      tags:
+        - Advisory
+        - ESG
+    - term: Digital Practice
+      definition: >-
+        CohnReznick service line covering cloud applications, data and AI,
+        and technology-enabled transformation work.
+      tags:
+        - Advisory
+        - Technology
+    - term: Family Office
+      definition: >-
+        Single- or multi-family wealth management vehicle. A Private Clients
+        industry vertical for CohnReznick.
+      tags:
+        - Private Clients
+        - Wealth Management
+    - term: Game Plan
+      definition: >-
+        CohnReznick's "Game Plan: Accounting for Athletes" sub-practice
+        within Private Clients that serves professional athletes and their
+        advisors.
+      tags:
+        - Private Clients
+        - Sports
+    - term: REIT Services
+      definition: >-
+        Audit, tax, and advisory practice serving Real Estate Investment
+        Trusts under Financial Services.
+      tags:
+        - Real Estate
+        - Financial Services
+    - term: Cannabis Practice
+      definition: >-
+        Industry sub-practice under Consumer & Industrial advising
+        cultivators, processors, and dispensaries on Section 280E and other
+        cannabis-specific tax and accounting issues.
+      tags:
+        - Consumer
+        - Tax
+    - term: IPA Best of the Best
+      definition: >-
+        Inside Public Accounting recognition list on which CohnReznick was
+        named in 2025; a benchmark for top-performing US public accounting
+        firms.
+      tags:
+        - Recognition
+        - Industry
+    - term: Great Place to Work Certification
+      definition: >-
+        Employer-culture certification CohnReznick has held since 2022.
+      tags:
+        - Recognition
+        - Culture
