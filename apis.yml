@@ -57,6 +57,8 @@ url: >-
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/cohnreznick-domain-security.yml
   - type: Website
     url: https://www.cohnreznick.com
   - type: About
